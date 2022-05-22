@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== BOXICONS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+  <!--=============== CSS ===============-->
+
+
+  <link rel="stylesheet" href="../assets/css/historia.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+  <title>Responsive bottom navigation</title>
+
+  <!--=============== SCRIPT ===============-->
+
+
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+
+          <li class="nav__item">
+            <a href="../index.html" class="nav__link">
+              <i class='bi bi-house-door nav__icon'></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="../quiz/quiz.html" class="nav__link ">
+              <i class="bi bi-controller nav__icon"></i>
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link active-link">
+              <i class='bx bxs-book nav__icon'></i>
+            </a>
+          </li>
+
+
+
+        </ul>
+      </div>
+
+
+    </nav>
+  </header>
+  <main>
+    <!--=============== HOME ===============-->
+<section class="c-imagem"></section>
+   <!-- <video autoplay muted loop class="c-bg_video">
+      <source  class="bg_video" src="../assets/videos/sangue.mp4" type="video/mp4">
+    </video>
+-->
+
+    <div class="seta-conteiner">
+      <a href="#about" onclick="clicar()"><i class='bx bx-chevron-down bx-fade-up c-imagem__seta'></i>
+      </a>
+    </div>
+    <!--==================== ABOUT ====================-->
+    <section class="about section">
+      <div class="about__container container">
+        <div class="about__data">
+          <h2 class="section__title" id="about">Sistema ABO
+          </h2>
+          <div class="sistema-conteiner"> <img class="titulo-img" src="../assets/img/ab.png">
+          </div>
+
+          <p class="about__description">
+            O Sistema ABO representa um grupo sanguíneo importante na determinação da compatibilidade entre os tipos de sangue. A descoberta do sistema ABO aconteceu em 1901 e deve-se ao médico Karl Landsteiner (1868 - 1943). Ele e sua equipe perceberam que quando alguns tipos de sangue eram misturados ocorria a aglutinação das hemácias, o que é chamado de incompatibilidade sanguínea. Desse modo, foi verificado que existiam alguns tipos sanguíneos, os quais foram denominados de A, B, AB e O. Daí surgiu o sistema ABO. A determinação dos tipos sanguíneos é uma condição genética, constituindo um caso de alelos múltiplos, determinada por três alelos: IA, IB, i.
+          </p>
+
+          <section class="container" id="portfolio">
+
+            <div class="c-video">
+              <iframe src="https://www.youtube.com/embed/NhDHK7As13c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="c-btn__conteiner c-btn__conteiner--2">
+            </div>
+
+          </section>
+
+          <h2 class="section__title" id="about">Tipos sanguíneos</h2>
+          <p class="about__description">
+            Existem quatro tipos de sangue: A, B, AB e O. Cada um deles é determinado pela presença ou ausência de aglutinogênios e aglutininas:
+            <li class="about__description"><strong>aglutinogênios:</strong> São antígenos encontrados na superfície das hemácias. Existem dois tipos de aglutinogênios: A e B.</li>
+            <li class="about__description"><strong>aglutininas:</strong> São anticorpos presentes no plasma sanguíneo e existem em dois tipos: anti-A e anti-B.<l /i>
+
+          </p>
+          <div class="sistema-conteiner"> <img class="sistema-img" src="../assets/img/sistema.png" alt=""></div>
+          <div class="c-btn__conteiner">
+            <a href="https://www.youtube.com/embed/907ws2kX4Zo" class="btn"> SABIA MAIS...<i class='bx bx-right-arrow-alt'></i>
+            </a>
+          </div>
+
+          <h2 class="section__title" id="about">Transfusões Sanguíneas</h2>
+          <p class="about__description">As aglutininas reagem com os antígenos, daí a importância de reconhecer os tipos sanguíneos no momento de uma transfusão. Para que ocorra de forma correta deve existir compatibilidade entre as hemácias do doador e o plasma do receptor, ou seja, as aglutininas não devem reagir contra os aglutinogênios. A incompatibilidade sanguínea em casos de transfusões causa a aglutinação das hemácias, ou seja, formam-se aglomerados como se fossem coágulos. Essa situação resulta no entupimento dos capilares sanguíneos, comprometendo a circulação sanguínea. Por exemplo, uma pessoa com sangue do tipo A ao doar sangue para outra pessoa do tipo B provoca a aglutinação das hemácias devido a presença do anti-A. O mesmo acontece em um indivíduo com sangue tipo B, ele apresenta hemácias com antígenos B e anticorpos anti-A, rejeitando o sangue tipo A. Caso ocorra de algum caso de incompatibilidade sanguínea pode ser que o paciente vá a óbito caso não seja ocorrido rapidamente e corretamente </p>
+          <div class="sistema-conteiner"> <img class="sistema-img" src="../assets/img/doacao.png" alt=""></div>
+          <div class="c-btn__conteiner">
+            <a href="https://youtu.be/sT7NDQZIFFw" class="btn"> SABIA MAIS...<i class='bx bx-right-arrow-alt'></i>
+            </a>
+          </div>
+
+          <h2 class="section__title" id="about">Sistema RH</h2>
+          <p class="about__description">O fator Rh é um dos dois grupos de antígenos eritrocitários de maior importância clínica, estando envolvido nas reações transfusionais hemolíticas e na Doença Hemolítica do Recém-Nascido. O fator Rh ou sistema Rh foi descoberto em 1940 por Landsteiner e Wiener ao estudarem o sangue do macaco do gênero Rhesus (Macaca mulatta). Os pesquisadores perceberam que, ao colocar sangue do macaco em um coelho, este iniciava uma produção de anticorpos capazes de aglutinar as hemácias do macaco.
+            Os pesquisadores começaram então a estudar o sangue humano e perceberam que a maioria dos indivíduos submetidos ao teste tinha o sangue aglutinado na presença do soro, que foi chamado de anti-Rh (antirrhesus). Uma minoria, que ficava em torno de 15%, não apresentava nenhuma aglutinação.
+          </p>
+          <div class="sistema-conteiner"> <img class="sistema-img" src="../assets/img/rh.png" alt=""></div>
+          <div class="c-btn__conteiner">
+            <a href="https://youtu.be/QFDLFbl69Ss" class="btn"> SABIA MAIS...<i class='bx bx-right-arrow-alt'></i>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+  </main>
+
+
+  <!--=============== MAIN JS ===============-->
+  <script src="../assets/js/historia.js"></script>
+
+</body>
+
+</html>
